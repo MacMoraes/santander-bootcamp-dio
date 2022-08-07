@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify Content</title>
+
+    <style>
+        .container {
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0 5px;
+            display: flex;
+        }
+
+        h1 {
+            padding: 10px;
+            text-align: right;
+        }
+
+        p {
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .flex-center {
+            justify-content: center;
+        }
+
+        .flex-baseline {
+            justify-content: first baseline;
+        }
+
+        .flex-between {
+            justify-content: space-between;
+        }
+
+        .flex-around {
+            justify-content: space-around;
+        }
+
+        .column {
+            flex-direction: column;
+            min-height: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <h1>row</h1>
+    
+    <p>Flex Start</p>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex End</p>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex Center</p>
+    <section class="container flex-center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex baseline</p>
+    <section class="container flex-baseline">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex between</p>
+    <section class="container flex-between">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex around</p>
+    <section class="container flex-around">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <h1>column</h1>
+    
+    <p>Flex Start (column)</p>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+    
+    <p>Flex end (column)</p>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex Center (column)</p>
+    <section class="container flex-center column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex between (column)</p>
+    <section class="container flex-between column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+
+    <p>Flex around (column)</p>
+    <section class="container flex-around column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">Ok? Ok.</div>
+    </section>
+    
+</body>
+
+</html>
